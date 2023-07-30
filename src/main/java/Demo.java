@@ -6,21 +6,16 @@ public class Demo {
 
     @BeforeTest
     public void execute1() {
-//        System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver_win32\\chromedriver.exe");
-        System.setProperty("webdriver,chrome.driver","D://Softwares//chromedriver_win32//chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "C:\Users\deeks\Downloads\Maven_project\OctPomSeriesFramework-master\CucumberBDD_Practice\src\main\resources\\chromedriver.exe");
+        System.setProperty("webdriver,chrome.driver","src//main//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://phoenixnap.com/kb/install-maven-windows");
+        driver.manage().window().maximize();
 
         System.out.println("Hello Canada");
         System.out.println("Hello USA");
         System.out.println("Hello USA");
-        System.out.println("Hello USA");
-        System.out.println("Hello USA");
-        System.out.println("Hello USA");
-        System.out.println("Hello USA");
-        System.out.println("Hello USA");
-        System.out.println("Hello India");
-        System.out.println("Hello India changes done in Deeksha Branch");
+
 
 
     }
