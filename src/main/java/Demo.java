@@ -7,7 +7,7 @@ public class Demo {
     @BeforeTest
     public void execute1() {
 //        System.setProperty("webdriver.chrome.driver", "C:\Users\deeks\Downloads\Maven_project\OctPomSeriesFramework-master\CucumberBDD_Practice\src\main\resources\\chromedriver.exe");
-        System.setProperty("webdriver,chrome.driver","src//main//resources//chromedriver.exe");
+        System.setProperty("webdriver,chrome.driver","C://Users//deeks//Downloads//Maven_project//ctPomSeriesFramework-master//CucumberBDD_Practice//src//main//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://phoenixnap.com/kb/install-maven-windows");
         driver.manage().window().maximize();
