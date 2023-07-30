@@ -1,10 +1,11 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class Demo {
 
-    @BeforeTest
+    @Test
     public void execute1() {
 //        System.setProperty("webdriver.chrome.driver", "C:\Users\deeks\Downloads\Maven_project\OctPomSeriesFramework-master\CucumberBDD_Practice\src\main\resources\\chromedriver.exe");
         System.setProperty("webdriver,chrome.driver","C://Users//deeks//Downloads//Maven_project//ctPomSeriesFramework-master//CucumberBDD_Practice//src//main//resources//chromedriver.exe");
