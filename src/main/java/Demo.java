@@ -12,10 +12,7 @@ public class Demo {
         WebDriver driver = new ChromeDriver();
         driver.get("https://phoenixnap.com/kb/install-maven-windows");
         driver.manage().window().maximize();
-
-        System.out.println("Hello Canada");
-        System.out.println("Hello USA");
-        System.out.println("Hello USA");
+        
 
 
 
